@@ -10,9 +10,3 @@ function removeFromPlaylist(playlist, artistName) {
   delete playlist[artistName]
   return playlist
 }
-
-// function removeFromPlaylist(playlist, artistName) {
-//   newPlaylist = Object.assign({}, playlist)
-//   delete newPlaylist.artistName
-//   return newPlaylist
-// }
