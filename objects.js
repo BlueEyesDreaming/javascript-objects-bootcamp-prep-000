@@ -11,8 +11,8 @@ function removeFromPlaylist(playlist, artistName) {
   return playlist
 }
 
-function removeFromPlaylist(playlist, artistName) {
-  newPlaylist = Object.assign({}, playlist)
-  delete newPlaylist.artistName
-  return newPlaylist
-}
+// function removeFromPlaylist(playlist, artistName) {
+//   newPlaylist = Object.assign({}, playlist)
+//   delete newPlaylist.artistName
+//   return newPlaylist
+// }
